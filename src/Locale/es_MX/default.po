@@ -1,0 +1,528 @@
+# LANGUAGE translation of CakePHP Application
+# Copyright YEAR NAME <EMAIL@ADDRESS>
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"POT-Creation-Date: 2018-10-11 22:41+0000\n"
+"PO-Revision-Date: 2018-10-11 19:59-0400\n"
+"Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 2.2\n"
+"Last-Translator: \n"
+"Language: es_MX\n"
+
+#: Controller/ContractsController.php:95;126
+msgid "The contract has been saved."
+msgstr "El contrato ha sido guardado."
+
+#: Controller/ContractsController.php:99;130
+msgid "The contract could not be saved. Please, try again."
+msgstr "El contrato no pudo ser salvado. Inténtalo de nuevo."
+
+#: Controller/ContractsController.php:152
+msgid "The contract has been deleted."
+msgstr "El contrato ha sido eliminado."
+
+#: Controller/ContractsController.php:154
+msgid "The contract could not be deleted. Please, try again."
+msgstr "El contrato no pudo ser eliminado. Inténtalo de nuevo."
+
+#: Controller/InterestRatesController.php:55;79
+msgid "The interest rate has been saved."
+msgstr "La tasa de interés se ha guardado."
+
+#: Controller/InterestRatesController.php:59;83
+msgid "The interest rate could not be saved. Please, try again."
+msgstr "La tasa de interés no se pudo guardar. Inténtalo de nuevo."
+
+#: Controller/InterestRatesController.php:100
+msgid "The interest rate has been deleted."
+msgstr "La tasa de interés ha sido eliminada."
+
+#: Controller/InterestRatesController.php:102
+msgid "The interest rate could not be deleted. Please, try again."
+msgstr "La tasa de interés no pudo ser eliminada. Inténtalo de nuevo."
+
+#: Controller/LoanTypesController.php:55;79
+msgid "The loan type has been saved."
+msgstr "El tipo de préstamo ha sido guardado."
+
+#: Controller/LoanTypesController.php:59;83
+msgid "The loan type could not be saved. Please, try again."
+msgstr "El tipo de préstamo no se pudo guardar. Inténtalo de nuevo."
+
+#: Controller/LoanTypesController.php:100
+msgid "The loan type has been deleted."
+msgstr "El tipo de préstamo ha sido eliminado."
+
+#: Controller/LoanTypesController.php:102
+msgid "The loan type could not be deleted. Please, try again."
+msgstr "El tipo de préstamo no pudo ser eliminado. Inténtalo de nuevo."
+
+#: Controller/PaymentTypesController.php:55;79
+msgid "The payment type has been saved."
+msgstr "El tipo de pago ha sido guardado."
+
+#: Controller/PaymentTypesController.php:59;83
+msgid "The payment type could not be saved. Please, try again."
+msgstr "No se pudo guardar el tipo de pago. Inténtalo de nuevo."
+
+#: Controller/PaymentTypesController.php:100
+msgid "The payment type has been deleted."
+msgstr "El tipo de pago ha sido eliminado."
+
+#: Controller/PaymentTypesController.php:102
+msgid "The payment type could not be deleted. Please, try again."
+msgstr "El tipo de pago no pudo ser eliminado. Inténtalo de nuevo."
+
+#: Controller/PaymentsController.php:55;79
+msgid "The payment has been saved."
+msgstr "El pago ha sido guardado."
+
+#: Controller/PaymentsController.php:59;83
+msgid "The payment could not be saved. Please, try again."
+msgstr "El pago no se pudo guardar. Inténtalo de nuevo."
+
+#: Controller/PaymentsController.php:100
+msgid "The payment has been deleted."
+msgstr "El pago ha sido eliminado."
+
+#: Controller/PaymentsController.php:102
+msgid "The payment could not be deleted. Please, try again."
+msgstr "El pago no pudo ser eliminado. Inténtalo de nuevo."
+
+#: Controller/UsersController.php:79;103
+msgid "The user has been saved."
+msgstr "El usuario ha sido guardado."
+
+#: Controller/UsersController.php:83;107
+msgid "The user could not be saved. Please, try again."
+msgstr "El usuario no pudo ser guardado. Inténtalo de nuevo."
+
+#: Controller/UsersController.php:124
+msgid "The user has been deleted."
+msgstr "El usuario ha sido eliminado."
+
+#: Controller/UsersController.php:126
+msgid "The user could not be deleted. Please, try again."
+msgstr "El usuario no pudo ser eliminado. Inténtalo de nuevo."
+
+#: Template/Contracts/add.ctp:9 Template/Contracts/edit.ctp:9
+#: Template/Contracts/index.ctp:9;31 Template/Contracts/view.ctp:9
+#: Template/InterestRates/add.ctp:9 Template/InterestRates/edit.ctp:9
+#: Template/InterestRates/index.ctp:9;24 Template/InterestRates/view.ctp:9;56
+#: Template/LoanTypes/add.ctp:9 Template/LoanTypes/edit.ctp:9
+#: Template/LoanTypes/index.ctp:9;24 Template/LoanTypes/view.ctp:9;56
+#: Template/PaymentTypes/add.ctp:9 Template/PaymentTypes/edit.ctp:9
+#: Template/PaymentTypes/index.ctp:9;22 Template/PaymentTypes/view.ctp:9
+#: Template/Payments/add.ctp:9 Template/Payments/edit.ctp:9
+#: Template/Payments/index.ctp:9;26 Template/Payments/view.ctp:9;64
+#: Template/Users/add.ctp:9 Template/Users/edit.ctp:9
+#: Template/Users/index.ctp:9;26 Template/Users/view.ctp:9;64
+msgid "Actions"
+msgstr "Comportamiento"
+
+#: Template/Contracts/add.ctp:10 Template/Contracts/edit.ctp:16
+#: Template/Contracts/view.ctp:12 Template/InterestRates/add.ctp:11
+#: Template/InterestRates/edit.ctp:17 Template/InterestRates/index.ctp:11
+#: Template/InterestRates/view.ctp:14 Template/LoanTypes/add.ctp:11
+#: Template/LoanTypes/edit.ctp:17 Template/LoanTypes/index.ctp:11
+#: Template/LoanTypes/view.ctp:14 Template/Payments/add.ctp:11
+#: Template/Payments/edit.ctp:17 Template/Payments/index.ctp:11
+#: Template/Payments/view.ctp:14 Template/Users/add.ctp:11
+#: Template/Users/edit.ctp:17 Template/Users/index.ctp:11
+#: Template/Users/view.ctp:14
+msgid "List Contracts"
+msgstr "Lista de contratos"
+
+#: Template/Contracts/add.ctp:11 Template/Contracts/edit.ctp:17
+#: Template/Contracts/index.ctp:11 Template/Contracts/view.ctp:14
+#: Template/Users/add.ctp:10 Template/Users/edit.ctp:16
+#: Template/Users/view.ctp:12
+msgid "List Users"
+msgstr "Lista de usuarios"
+
+#: Template/Contracts/add.ctp:12 Template/Contracts/edit.ctp:18
+#: Template/Contracts/index.ctp:12 Template/Contracts/view.ctp:15
+#: Template/Users/index.ctp:10 Template/Users/view.ctp:13
+msgid "New User"
+msgstr "Nuevo usuario"
+
+#: Template/Contracts/add.ctp:13 Template/Contracts/edit.ctp:19
+#: Template/Contracts/index.ctp:13 Template/Contracts/view.ctp:16
+#: Template/LoanTypes/add.ctp:10 Template/LoanTypes/edit.ctp:16
+#: Template/LoanTypes/view.ctp:12
+msgid "List Loan Types"
+msgstr "Lista de tipos de préstamos"
+
+#: Template/Contracts/add.ctp:14 Template/Contracts/edit.ctp:20
+#: Template/LoanTypes/index.ctp:10 Template/LoanTypes/view.ctp:13
+msgid "New Loan Type"
+msgstr "Nuevo tipo de préstamo"
+
+#: Template/Contracts/add.ctp:15 Template/Contracts/edit.ctp:21
+#: Template/Contracts/index.ctp:14 Template/Contracts/view.ctp:17
+#: Template/InterestRates/add.ctp:10 Template/InterestRates/edit.ctp:16
+#: Template/InterestRates/view.ctp:12
+msgid "List Interest Rates"
+msgstr "Lista de tasas de interés"
+
+#: Template/Contracts/add.ctp:16 Template/Contracts/edit.ctp:22
+#: Template/InterestRates/index.ctp:10 Template/InterestRates/view.ctp:13
+msgid "New Interest Rate"
+msgstr "Nueva tasa de interés"
+
+#: Template/Contracts/add.ctp:17 Template/Contracts/edit.ctp:23
+#: Template/Contracts/index.ctp:15 Template/Contracts/view.ctp:18
+#: Template/Payments/add.ctp:10 Template/Payments/edit.ctp:16
+#: Template/Payments/view.ctp:12
+msgid "List Payments"
+msgstr "Listar pagos"
+
+#: Template/Contracts/add.ctp:18 Template/Contracts/edit.ctp:24
+#: Template/Contracts/index.ctp:16 Template/Contracts/view.ctp:19
+#: Template/Payments/index.ctp:10 Template/Payments/view.ctp:13
+msgid "New Payment"
+msgstr "Nuevo pago"
+
+#: Template/Contracts/add.ctp:24
+msgid "Add Contract"
+msgstr "Añadir contrato"
+
+#: Template/Contracts/add.ctp:41 Template/Contracts/edit.ctp:44
+#: Template/InterestRates/add.ctp:23 Template/InterestRates/edit.ctp:29
+#: Template/LoanTypes/add.ctp:23 Template/LoanTypes/edit.ctp:29
+#: Template/PaymentTypes/add.ctp:21 Template/PaymentTypes/edit.ctp:27
+#: Template/Payments/add.ctp:25 Template/Payments/edit.ctp:31
+#: Template/Users/add.ctp:33 Template/Users/edit.ctp:31
+msgid "Submit"
+msgstr "Enviar"
+
+#: Template/Contracts/edit.ctp:11 Template/Contracts/index.ctp:47
+#: Template/InterestRates/edit.ctp:11 Template/InterestRates/index.ctp:37
+#: Template/InterestRates/view.ctp:76 Template/LoanTypes/edit.ctp:11
+#: Template/LoanTypes/index.ctp:37 Template/LoanTypes/view.ctp:76
+#: Template/PaymentTypes/edit.ctp:11 Template/PaymentTypes/index.ctp:35
+#: Template/Payments/edit.ctp:11 Template/Payments/index.ctp:41
+#: Template/Payments/view.ctp:84 Template/Users/edit.ctp:11
+#: Template/Users/index.ctp:41 Template/Users/view.ctp:84
+msgid "Delete"
+msgstr "Borrar"
+
+#: Template/Contracts/edit.ctp:13 Template/Contracts/index.ctp:47
+#: Template/Contracts/view.ctp:11 Template/InterestRates/edit.ctp:13
+#: Template/InterestRates/index.ctp:37 Template/InterestRates/view.ctp:11;76
+#: Template/LoanTypes/edit.ctp:13 Template/LoanTypes/index.ctp:37
+#: Template/LoanTypes/view.ctp:11;76 Template/PaymentTypes/edit.ctp:13
+#: Template/PaymentTypes/index.ctp:35 Template/PaymentTypes/view.ctp:11
+#: Template/Payments/edit.ctp:13 Template/Payments/index.ctp:41
+#: Template/Payments/view.ctp:11;84 Template/Users/edit.ctp:13
+#: Template/Users/index.ctp:41 Template/Users/view.ctp:11;84
+msgid "Are you sure you want to delete # {0}?"
+msgstr "¿Estás seguro de que quieres eliminar # {0}?"
+
+#: Template/Contracts/edit.ctp:30 Template/Contracts/view.ctp:10
+msgid "Edit Contract"
+msgstr "Editar contrato"
+
+#: Template/Contracts/index.ctp:10 Template/Contracts/view.ctp:13
+#: Template/InterestRates/add.ctp:12 Template/InterestRates/edit.ctp:18
+#: Template/InterestRates/index.ctp:12 Template/InterestRates/view.ctp:15
+#: Template/LoanTypes/add.ctp:12 Template/LoanTypes/edit.ctp:18
+#: Template/LoanTypes/index.ctp:12 Template/LoanTypes/view.ctp:15
+#: Template/Payments/add.ctp:12 Template/Payments/edit.ctp:18
+#: Template/Payments/index.ctp:12 Template/Payments/view.ctp:15
+#: Template/Users/edit.ctp:18 Template/Users/index.ctp:12
+#: Template/Users/view.ctp:15
+msgid "New Contract"
+msgstr "Nuevo contrato"
+
+#: Template/Contracts/index.ctp:20
+msgid "Contracts"
+msgstr "Los contratos"
+
+#: Template/Contracts/index.ctp:45 Template/InterestRates/index.ctp:35
+#: Template/InterestRates/view.ctp:74 Template/LoanTypes/index.ctp:35
+#: Template/LoanTypes/view.ctp:74 Template/PaymentTypes/index.ctp:33
+#: Template/Payments/index.ctp:39 Template/Payments/view.ctp:82
+#: Template/Users/index.ctp:39 Template/Users/view.ctp:82
+msgid "View"
+msgstr "Ver"
+
+#: Template/Contracts/index.ctp:46 Template/InterestRates/index.ctp:36
+#: Template/InterestRates/view.ctp:75 Template/LoanTypes/index.ctp:36
+#: Template/LoanTypes/view.ctp:75 Template/PaymentTypes/index.ctp:34
+#: Template/Payments/index.ctp:40 Template/Payments/view.ctp:83
+#: Template/Users/index.ctp:40 Template/Users/view.ctp:83
+msgid "Edit"
+msgstr "Editar"
+
+#: Template/Contracts/index.ctp:55 Template/InterestRates/index.ctp:45
+#: Template/LoanTypes/index.ctp:45 Template/PaymentTypes/index.ctp:43
+#: Template/Payments/index.ctp:49 Template/Users/index.ctp:49
+msgid "first"
+msgstr "primero"
+
+#: Template/Contracts/index.ctp:56 Template/InterestRates/index.ctp:46
+#: Template/LoanTypes/index.ctp:46 Template/PaymentTypes/index.ctp:44
+#: Template/Payments/index.ctp:50 Template/Users/index.ctp:50
+msgid "previous"
+msgstr "anterior"
+
+#: Template/Contracts/index.ctp:58 Template/InterestRates/index.ctp:48
+#: Template/LoanTypes/index.ctp:48 Template/PaymentTypes/index.ctp:46
+#: Template/Payments/index.ctp:52 Template/Users/index.ctp:52
+msgid "next"
+msgstr "siguiente"
+
+#: Template/Contracts/index.ctp:59 Template/InterestRates/index.ctp:49
+#: Template/LoanTypes/index.ctp:49 Template/PaymentTypes/index.ctp:47
+#: Template/Payments/index.ctp:53 Template/Users/index.ctp:53
+msgid "last"
+msgstr "último"
+
+#: Template/Contracts/index.ctp:61 Template/InterestRates/index.ctp:51
+#: Template/LoanTypes/index.ctp:51 Template/PaymentTypes/index.ctp:49
+#: Template/Payments/index.ctp:55 Template/Users/index.ctp:55
+msgid ""
+"Page {{page}} of {{pages}}, showing {{current}} record(s) out of {{count}} "
+"total"
+msgstr ""
+"La página {{page}} de {{pages}}, mostrando {{current}} registros de "
+"{{count}} total"
+
+#: Template/Contracts/view.ctp:11
+msgid "Delete Contract"
+msgstr "Eliminar contrato"
+
+#: Template/Contracts/view.ctp:26
+msgid "User"
+msgstr "Usuario"
+
+#: Template/Contracts/view.ctp:30 Template/LoanTypes/view.ctp:22
+msgid "Loan Type"
+msgstr "Tipo de préstamo"
+
+#: Template/Contracts/view.ctp:35 Template/InterestRates/view.ctp:22
+msgid "Interest Rate"
+msgstr "Tasa de interés"
+
+#: Template/Contracts/view.ctp:40
+msgid "Payment"
+msgstr "Pago"
+
+#: Template/Contracts/view.ctp:45 Template/InterestRates/view.ctp:52
+#: Template/LoanTypes/view.ctp:52 Template/Payments/view.ctp:60
+#: Template/Users/view.ctp:60
+msgid "Payment Frequency"
+msgstr "Frecuencia de pago"
+
+#: Template/Contracts/view.ctp:49
+msgid "Total Amount"
+msgstr "Cantidad total"
+
+#: Template/Contracts/view.ctp:53 Template/InterestRates/view.ctp:50
+#: Template/LoanTypes/view.ctp:50 Template/Payments/view.ctp:58
+#: Template/Users/view.ctp:58
+msgid "Amount Due"
+msgstr "Cantidad debida"
+
+#: Template/Contracts/view.ctp:57 Template/InterestRates/view.ctp:45
+#: Template/LoanTypes/view.ctp:45 Template/Payments/view.ctp:53
+#: Template/Users/view.ctp:53
+msgid "Start"
+msgstr "Comienzo"
+
+#: Template/Contracts/view.ctp:61 Template/InterestRates/view.ctp:46
+#: Template/LoanTypes/view.ctp:46 Template/Payments/view.ctp:54
+#: Template/Users/view.ctp:54
+msgid "End"
+msgstr "Fin"
+
+#: Template/Contracts/view.ctp:65 Template/InterestRates/view.ctp:53
+#: Template/LoanTypes/view.ctp:53 Template/Payments/view.ctp:61
+#: Template/Users/view.ctp:61
+msgid "Payment Due Date"
+msgstr "Fecha de vencimiento del pago"
+
+#: Template/Contracts/view.ctp:69 Template/InterestRates/view.ctp:30;54
+#: Template/LoanTypes/view.ctp:30;54 Template/PaymentTypes/view.ctp:28
+#: Template/Payments/view.ctp:38;62 Template/Users/view.ctp:38;62
+msgid "Created"
+msgstr "Creado"
+
+#: Template/Contracts/view.ctp:73 Template/InterestRates/view.ctp:34;55
+#: Template/LoanTypes/view.ctp:34;55 Template/PaymentTypes/view.ctp:32
+#: Template/Payments/view.ctp:42;63 Template/Users/view.ctp:42;63
+msgid "Modified"
+msgstr "Modificado"
+
+#: Template/InterestRates/add.ctp:18
+msgid "Add Interest Rate"
+msgstr "Añadir tasa de interés"
+
+#: Template/InterestRates/edit.ctp:24 Template/InterestRates/view.ctp:10
+msgid "Edit Interest Rate"
+msgstr "Editar tasa de interés"
+
+#: Template/InterestRates/index.ctp:16
+msgid "Interest Rates"
+msgstr "Tasas de interés"
+
+#: Template/InterestRates/view.ctp:11
+msgid "Delete Interest Rate"
+msgstr "Eliminar tasa de interés"
+
+#: Template/InterestRates/view.ctp:26;43 Template/LoanTypes/view.ctp:26;43
+#: Template/PaymentTypes/view.ctp:24 Template/Payments/view.ctp:22;51
+#: Template/Users/view.ctp:34;51
+msgid "Id"
+msgstr "Id"
+
+#: Template/InterestRates/view.ctp:39 Template/LoanTypes/view.ctp:39
+#: Template/Payments/view.ctp:47 Template/Users/view.ctp:47
+msgid "Related Contracts"
+msgstr "Contratos relacionados"
+
+#: Template/InterestRates/view.ctp:44 Template/LoanTypes/view.ctp:44
+#: Template/Payments/view.ctp:52 Template/Users/view.ctp:52
+msgid "User Id"
+msgstr "ID de usuario"
+
+#: Template/InterestRates/view.ctp:47 Template/LoanTypes/view.ctp:47
+#: Template/Payments/view.ctp:55 Template/Users/view.ctp:55
+msgid "Loan Type Id"
+msgstr "ID del tipo de préstamo"
+
+#: Template/InterestRates/view.ctp:48 Template/LoanTypes/view.ctp:48
+#: Template/Payments/view.ctp:56 Template/Users/view.ctp:56
+msgid "Interest Rate Id"
+msgstr "ID de tasa de interés"
+
+#: Template/InterestRates/view.ctp:49 Template/LoanTypes/view.ctp:49
+#: Template/Payments/view.ctp:30;57 Template/Users/view.ctp:57
+msgid "Amount"
+msgstr "Cantidad"
+
+#: Template/InterestRates/view.ctp:51 Template/LoanTypes/view.ctp:51
+#: Template/Payments/view.ctp:59 Template/Users/view.ctp:59
+msgid "Payment Id"
+msgstr "Identificación de pago"
+
+#: Template/Layout/error.ctp:35 Template/Error/error400.ctp:36
+#: Template/Error/error500.ctp:41
+msgid "Error"
+msgstr "Error"
+
+#: Template/Layout/error.ctp:43
+msgid "Back"
+msgstr "Espalda"
+
+#: Template/LoanTypes/add.ctp:18
+msgid "Add Loan Type"
+msgstr "Agregar tipo de préstamo"
+
+#: Template/LoanTypes/edit.ctp:24 Template/LoanTypes/view.ctp:10
+msgid "Edit Loan Type"
+msgstr "Editar el tipo de préstamo"
+
+#: Template/LoanTypes/index.ctp:16
+msgid "Loan Types"
+msgstr "Tipos de prestamo"
+
+#: Template/LoanTypes/view.ctp:11
+msgid "Delete Loan Type"
+msgstr "Eliminar el tipo de préstamo"
+
+#: Template/PaymentTypes/add.ctp:10 Template/PaymentTypes/edit.ctp:16
+#: Template/PaymentTypes/view.ctp:12
+msgid "List Payment Types"
+msgstr "Lista de tipos de pago"
+
+#: Template/PaymentTypes/add.ctp:16
+msgid "Add Payment Type"
+msgstr "Añadir tipo de pago"
+
+#: Template/PaymentTypes/edit.ctp:22 Template/PaymentTypes/view.ctp:10
+msgid "Edit Payment Type"
+msgstr "Editar tipo de pago"
+
+#: Template/PaymentTypes/index.ctp:10 Template/PaymentTypes/view.ctp:13
+msgid "New Payment Type"
+msgstr "Nuevo tipo de pago"
+
+#: Template/PaymentTypes/index.ctp:14
+msgid "Payment Types"
+msgstr "Formas de pago"
+
+#: Template/PaymentTypes/view.ctp:11
+msgid "Delete Payment Type"
+msgstr "Eliminar tipo de pago"
+
+#: Template/PaymentTypes/view.ctp:20
+msgid "Payment Type"
+msgstr "Tipo de pago"
+
+#: Template/Payments/add.ctp:18
+msgid "Add Payment"
+msgstr "Añadir pago"
+
+#: Template/Payments/edit.ctp:24 Template/Payments/view.ctp:10
+msgid "Edit Payment"
+msgstr "Editar pago"
+
+#: Template/Payments/index.ctp:16
+msgid "Payments"
+msgstr "Pagos"
+
+#: Template/Payments/view.ctp:11
+msgid "Delete Payment"
+msgstr "Eliminar pago"
+
+#: Template/Payments/view.ctp:26
+msgid "Payment Type Code"
+msgstr "Código de Tipo de Pago"
+
+#: Template/Payments/view.ctp:34
+msgid "Date"
+msgstr "Fecha"
+
+#: Template/Users/add.ctp:18
+msgid "Add User"
+msgstr "Agregar usuario"
+
+#: Template/Users/edit.ctp:24 Template/Users/view.ctp:10
+msgid "Edit User"
+msgstr "Editar usuario"
+
+#: Template/Users/index.ctp:16
+msgid "Users"
+msgstr "Usuarios"
+
+#: Template/Users/view.ctp:11
+msgid "Delete User"
+msgstr "Borrar usuario"
+
+#: Template/Users/view.ctp:22
+msgid "User Type"
+msgstr "Tipo de usuario"
+
+#: Template/Users/view.ctp:26
+msgid "Email"
+msgstr "Email"
+
+#: Template/Users/view.ctp:30
+msgid "Password"
+msgstr "Contraseña"
+
+#: Template/Error/error400.ctp:37
+msgid "The requested address {0} was not found on this server."
+msgstr "La dirección solicitada {0} no se encontró en este servidor."
+
+#: Template/Error/error500.ctp:39
+msgid "An Internal Error Has Occurred"
+msgstr "Ha ocurrido un error interno"
