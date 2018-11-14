@@ -20,6 +20,7 @@ class ContractsController extends AppController
 
         $this->loadComponent('RequestHandler');
         
+        
     }
         
     public function isAuthorized($user)

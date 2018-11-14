@@ -45,7 +45,7 @@ class AppController extends Controller
         $this->loadComponent('RequestHandler', [
             'enableBeforeRedirect' => false,
         ]);
-        $this->loadComponent('Flash');
+          $this->viewBuilder()->setLayout('monopage');
 
         /*
          * Enable the following component for recommended CakePHP security settings.

@@ -214,3 +214,5 @@ Configure::write('CakePdf', [
     'orientation' => 'landscape',
     'download' => true
 ]);
+
+Plugin::load('BootstrapUI');

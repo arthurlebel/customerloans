@@ -19,7 +19,7 @@
 <div class="contracts index large-9 medium-8 columns content">
     <h3><?= __('About') ?></h3>
     <p>Arthur Lebel</p>
-    <p>420-5b7 MO Applications internet <br />
+    <p>420-5B7 MO Applications internet <br />
        Automne 2018, Collège Montmorency</p>
     <p>Bouton "Home" pour aller à la page d'accueil. Bouton login pour se connecter à un compte. Boutons pour les langues et le À propos.</p>
     <p>Ajouter un contrat en tant qu'admin. Afficher la liste des utilisateurs. Créer un nouvel utilisateur. Afficher la liste des types de prêts.

@@ -12,6 +12,13 @@ use App\Controller\AppController;
  */
 class LoanTypesController extends AppController
 {
+    
+    public function initialize()
+    {
+        parent::initialize();
+        
+        
+    }
 
     /**
      * Index method
