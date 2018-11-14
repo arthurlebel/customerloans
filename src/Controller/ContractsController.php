@@ -18,7 +18,7 @@ class ContractsController extends AppController
     {
         parent::initialize();
 
-        $this->loadComponent('Paginator');
+        $this->loadComponent('RequestHandler');
         
     }
         

@@ -23,7 +23,7 @@ use Cake\Routing\RouteBuilder;
 use Cake\Routing\Router;
 use Cake\Routing\Route\DashedRoute;
 
-Router::extensions(['pdf']);
+Router::extensions(['pdf', 'json', 'xml']);
 
 /**
  * The default class to use for all routes

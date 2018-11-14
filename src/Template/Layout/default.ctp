@@ -25,13 +25,26 @@ $cakeDescription = 'CakePHP: the rapid development php framework';
         <?= $this->fetch('title') ?>
     </title>
     <?= $this->Html->meta('icon') ?>
-
-    <?= $this->Html->css('base.css') ?>
-    <?= $this->Html->css('style.css') ?>
+    
+     <?php
+        echo $this->Html->css([
+            'base.css',
+            'style.css',
+            'https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css'
+        ]);
+    ?>
+    
+    <?php
+        echo $this->Html->script([
+            'https://code.jquery.com/jquery-1.12.4.js',
+            'https://code.jquery.com/ui/1.12.1/jquery-ui.js'
+                ], ['block' => 'scriptLibraries']
+        );
+    ?>
 
     <?= $this->fetch('meta') ?>
     <?= $this->fetch('css') ?>
-    <?= $this->fetch('script') ?>
+    
 </head>
 <body>
     <nav class="top-bar expanded" data-topbar role="navigation">
@@ -55,7 +68,17 @@ $cakeDescription = 'CakePHP: the rapid development php framework';
                     }
                     ?>
                 </li>
-                  <li>
+                <li>
+                    <a href="">CakePHP PDF version 0.0.2</a>
+                </li>
+                <li><?=
+                        $this->Html->link('Autocomplete', [
+                            'controller' => 'PaymentTypes',
+                            'action' => 'autocomplete'
+                        ]);
+                    ?>
+                </li>   
+                <li>
                     <?= $this->Html->link('Français', ['action' => 'changeLang', 'fr_CA'], ['escape' => false]) ?>
                 </li>
                 <li>
@@ -78,5 +101,8 @@ $cakeDescription = 'CakePHP: the rapid development php framework';
     </div>
     <footer>
     </footer>
+    <?= $this->fetch('scriptLibraries') ?>
+    <?= $this->fetch('script'); ?>
+    <?= $this->fetch('scriptBottom') ?>  
 </body>
 </html>

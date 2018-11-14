@@ -44,6 +44,7 @@
                 <td><?= h($contract->payment_frequency) ?></td>
                 <td class="actions">
                     <?= $this->Html->link(__('View'), ['action' => 'view', $contract->id]) ?>
+                    <?= $this->Html->link('(pdf)', ['action' => 'view', $contract->id . '.pdf']) ?>
                     <?= $this->Html->link(__('Edit'), ['action' => 'edit', $contract->id]) ?>
                     <?= $this->Form->postLink(__('Delete'), ['action' => 'delete', $contract->id], ['confirm' => __('Are you sure you want to delete # {0}?', $contract->id)]) ?>
                 </td>

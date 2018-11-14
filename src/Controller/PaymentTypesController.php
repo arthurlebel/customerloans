@@ -13,6 +13,61 @@ use App\Controller\AppController;
 class PaymentTypesController extends AppController
 {
 
+    public function initialize() {
+        parent::initialize();
+        $this->Auth->allow(['autocomplete', 'findPaymentTypes', 'add', 'edit', 'delete']);
+                
+    }
+    
+        /**
+     * findPaymentTypes method
+     * for use with JQuery-UI Autocomplete
+     *
+     * @return JSon query result
+     */
+    public function findPaymentTypes() {
+
+        if ($this->request->is('ajax')) {
+
+            $this->autoRender = false;
+            $name = $this->request->query['term'];
+            $results = $this->PaymentTypes->find('all', array(
+                'conditions' => array('payment_types.payment_type LIKE ' => '%' . $name . '%')
+            ));
+
+            $resultArr = array();
+            foreach ($results as $result) {
+                $resultArr[] = array('label' => $result['name'], 'value' => $result['name']);
+            }
+            echo json_encode($resultArr);
+        }
+    }
+
+    public function autocomplete() {
+        
+    }
+    
+    public function isAuthorized($user)
+    {
+        $action = $this->request->getParam('action');
+        // The add and tags actions are always allowed to logged in users.
+        if ($user['user_type'] == "Admin") {
+            if (in_array($action, ['view', 'edit', 'add'])) {
+                return true;
+            }
+        } 
+  
+        $id = $this->request->getParam('pass.0');
+        if (!$id) {
+            return false;
+        }
+
+        // Check that the contract belongs to the current user.
+        $contract = $this->Contracts->findById($id)->first();
+
+        return $contract->user_id === $user['id'];
+    }
+    
     /**
      * Index method
      *
